@@ -31,7 +31,7 @@ header {
     background-attachment: fixed;
     background-position: center;
     height: 100vh; /* Adjust the height as needed */
-    display: flex; 
+    display: block;
     align-items: center; 
     justify-content: center;
 }
