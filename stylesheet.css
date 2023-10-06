@@ -22,6 +22,7 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    
 }
 
 .parallax {
@@ -30,6 +31,8 @@ header {
     background-attachment: fixed;
     background-position: center;
     height: 100vh; /* Adjust the height as needed */
+    text-shadow: #ddd;
+    text-align: center;
 }
 
 header h1 {
@@ -44,7 +47,6 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    text-align: center;
 }
 
 nav ul li a {
