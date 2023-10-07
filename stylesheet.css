@@ -34,6 +34,7 @@ header {
     display: block;
     align-items: center; 
     justify-content: center;
+    padding: 100px;
 }
 
 header h1 {
