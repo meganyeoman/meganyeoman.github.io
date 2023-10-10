@@ -81,8 +81,8 @@ section h2 {
 }
 
 .col img{
-    width:80px;
-    height:80px;
+    width:25%;
+    height:auto;
     border-radius: 50%;
     object-fit: cover;
 }
