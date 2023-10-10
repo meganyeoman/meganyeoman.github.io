@@ -76,23 +76,16 @@ section h2 {
 }
 
 .col{
-    float: left;
     padding: 20px;
 }
 
 .left {
     width: 25%;
+    align-items: center;
 }
 
 .right {
     width: 75%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 
@@ -108,8 +101,7 @@ section h2 {
 .tabs {
     display: flex;
     flex-direction: row;
-    max-width: 400px;
-    margin: 0 auto;
+    margin-right: 20px;
 }
     
 input[type="radio"] {
@@ -117,11 +109,9 @@ input[type="radio"] {
 }
 
 label {
-    background-color: #ccc;
     padding: 10px;
     cursor: pointer;
     text-align: center;
-    border: 1px solid #bbb;
 }
 
 input[type="radio"]:checked + label {
@@ -131,7 +121,6 @@ input[type="radio"]:checked + label {
 .tab-content {
     display: none;
     padding: 20px;
-    border: 1px solid #bbb;
 }
 
 input[type="radio"]:checked ~ .tab-content {
