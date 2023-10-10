@@ -68,10 +68,9 @@ section h2 {
 }
 
 .row {
-    display: grid;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .col{
@@ -79,12 +78,12 @@ section h2 {
 }
 
 .left {
-    width: 25%;
+    flex: 1;
     align-items: center;
 }
 
 .right {
-    width: 75%;
+    flex: 2;
 }
 
 
@@ -99,7 +98,7 @@ section h2 {
 
 .tabs {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-right: 20px;
     max-width: fit-content;
     margin: 0 auto;
@@ -109,7 +108,7 @@ input[type="radio"] {
     display: none;
 }
 
-label {
+label{
     padding: 10px;
     cursor: pointer;
     text-align: center;
