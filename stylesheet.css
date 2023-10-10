@@ -71,13 +71,12 @@ section h2 {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     gap: 20px; /* Gap between columns */
-    max-width: 800px; /* Optional: Limit the maximum width of the container */
-    margin: 0 auto; /* Center the container horizontally */
     padding: 20px;
 }
 
 .col{
     padding: 20px;
+    text-align: center;
 }
 
 .col img{
@@ -90,16 +89,13 @@ section h2 {
 
 .tabs {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    display: inline;
 }
     
 /* Style the tab content */
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
 }
 
 
