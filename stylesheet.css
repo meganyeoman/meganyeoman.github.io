@@ -69,6 +69,7 @@ section h2 {
 
 .row {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     gap: 20px; /* Gap between columns */
     padding: 20px;
@@ -76,20 +77,21 @@ section h2 {
 
 .col{
     padding: 20px;
-    text-align: center;
 }
+
+
 
 .col img{
     width:300px;
     height:auto;
-    text-align: center;
+    align-items: center;
     border-radius: 15px;
     object-fit: cover;
 }
 
 .tabs {
-    overflow: hidden;
-    display: inline;
+    display: flex;
+    flex-direction: row;
 }
     
 /* Style the tab content */
