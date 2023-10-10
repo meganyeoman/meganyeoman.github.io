@@ -29,24 +29,27 @@
                 <h1>About Me</h1>
                 <p>Current third-year electrical and computer engineering student at UT Austin with a specific interest in software engineering and design. I am interested in a full-time software engineering internship for Summer 2024.</p>
                 <div class="tabs">
-                    <p class="tab-links active" onclick="openTab('skills')">Skills</p>
-                    <p class="tab-links" onclick="openTab('experience')">Experience</p>
-                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                    <input type="radio" id="skills" name="tab" checked>
+                    <label for="skills">Skills</label>
+
+                    <input type="radio" id="experience" name="tab">
+                    <label for="experience">Experience</label>
+
+                    <input type="radio" id="education" name="tab">
+                    <label for="education">Education</label>
+
+                    <div class="tab-content" id="content1">
+                        <p>Content for Tab 1 goes here.</p>
+                    </div>
+
+                    <div class="tab-content" id="content2">
+                        <p>Content for Tab 2 goes here.</p>
+                    </div>
+
+                    <div class="tab-content" id="content3">
+                        <p>Content for Tab 3 goes here.</p>
+                    </div>
                 </div>
-                <div id="skills" class="tabcontent">
-                    <h3>Skills</h3>
-                    <p>...insert skills...</p>
-                    </div>
-                    
-                    <div id="experience" class="tabcontent">
-                    <h3>Experience</h3>
-                    <p>...insert experience...</p>
-                    </div>
-                    
-                    <div id="education" class="tabcontent">
-                    <h3>Education</h3>
-                    <p>...insert education...</p>
-                    </div>
             </div>
         </div>
         

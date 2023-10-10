@@ -92,12 +92,34 @@ section h2 {
 .tabs {
     display: flex;
     flex-direction: row;
+    max-width: 400px;
+    margin: 0 auto;
 }
     
-/* Style the tab content */
-.tabcontent {
+input[type="radio"] {
     display: none;
-    padding: 6px 12px;
+}
+
+label {
+    background-color: #ccc;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #bbb;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #f0f0f0;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #bbb;
+}
+
+input[type="radio"]:checked ~ .tab-content {
+    display: block;
 }
 
 
