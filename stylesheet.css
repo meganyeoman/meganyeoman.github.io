@@ -72,6 +72,21 @@ section h2 {
     margin-bottom: 10px;
 }
 
+.row {
+    display: flex;
+  }
+
+.col{
+    flex: 50%;
+}
+
+.col img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* Style the portfolio projects */
 .project {
     margin: 20px 0;
