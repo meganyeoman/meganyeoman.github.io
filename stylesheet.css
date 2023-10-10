@@ -1,8 +1,3 @@
-/*body {background-color: white; text-align: center;}
-h1 {color: black; font-size: xx-large;}
-*/
-
-/* Reset some default styles for better consistency */
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -30,7 +25,7 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 100vh; /* Adjust the height as needed */
+    height: 100vh;
     display: block;
     align-items: center; 
     justify-content: center;
@@ -80,9 +75,10 @@ section h2 {
 }
 
 .col img{
-    width:150px;
+    width:300px;
     height:auto;
-    border-radius: 15%;
+    text-align: center;
+    border-radius: 15px;
     object-fit: cover;
 }
 
