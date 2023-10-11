@@ -155,6 +155,10 @@ input[type="radio"]:checked ~ .tab-content {
     font-size: 18px;
 }
 
+.contact{
+    text-align: center;
+}
+
 footer {
     text-align: center;
     padding: 10px;
